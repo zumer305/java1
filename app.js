@@ -18,4 +18,36 @@ console.log(z);
 console.log(`(Backticks escp)The total price of x and y is: ${x+y} Ruppes.`);
 
 
+// arithematic operators
+let e=10;
+let f=5;
+// binary
+console.log(e+f);
+console.log(e-f);
+console.log(e*f);
+console.log(e/f);
+console.log(e%f);
+
+// unary e++
+console.log(e++);
+console.log(++e);
+
+
+// comparision
+console.log(e<f);
+console.log(e>f);
+
+
+
+// === 
+let r=2;
+let s="2";
+console.log(r==s);
+console.log(r===s);
+
+// ascii--unicode
+// A=41
+// a=61
+
+
 
