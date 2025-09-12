@@ -50,4 +50,57 @@ console.log(r===s);
 // a=61
 
 
+// if statement
+let age=23;
+if(age>=18)
+    console.log("You can vote");
+
+let fname="zumer";
+if(fname=="zumer")
+    console.log(`Welcome ${fname}`);
+
+
+
+// traffic lights --multipleif statement
+let color="red";
+if(color==="red")
+    console.log("Slow down");
+
+if(color==="yellow")
+    console.log("Ready steady");
+
+if(color==="green")
+    console.log("Go");
+
+
+// traffic lights --elseif statement
+let color1="yellow";
+if(color1==="red")
+    console.log("Slow down");
+
+else if(color1==="yellow")
+    console.log("Ready steady");
+
+else if(color1==="green")
+    console.log("Go");
+
+
+// traffic lights --else statement
+let color2="pink";
+if(color2==="red")
+    console.log("Slow down");
+
+else if(color2==="yellow")
+    console.log("Ready steady");
+
+else 
+    console.log("Go-green");
+
+
+
+
+
+
+
+
 
