@@ -97,6 +97,23 @@ else
     console.log("Go-green");
 
 
+// practice
+let size="S";
+if(size==="S")
+    console.log("price is 50");
+
+else if(size==="M")
+    console.log("price is 100");
+
+else if(size==="L")
+    console.log("price is 200");
+else
+    console.log("price is 250");
+
+
+
+
+
 
 
 
