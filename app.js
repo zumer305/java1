@@ -162,6 +162,16 @@ if(!(mark==5))
 
 
 
+// practice
+let str="ap";
+if((str[0]=='a')&&(str.length>3))
+    console.log("GOOD");
+else
+    console.log("BAD");
+
+
+
+
 
 
 
