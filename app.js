@@ -219,6 +219,17 @@ switch(day){
             console.log("No Day");
 }
 
+// alert
+console.error("this is error");
+console.warn("this is warning");
+alert("just a pop up");
+
+// prompt
+let fn=prompt("FirstName");
+let ln=prompt("LastName");
+let msj=fn+ln;
+alert(msj);
+
 
 
 
