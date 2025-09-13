@@ -112,6 +112,56 @@ else
 
 
 
+// nested if-else
+    let marks=34;
+if(marks>=33)
+    if(marks>=80)
+        console.log("Grade: Outstanding");
+    else
+           console.log(" Grade: A+");
+
+else
+    console.log("Fail");
+
+
+// AND operator &&
+// T T=T
+// F T=F
+// T F=F
+// F F=F
+let m=10;
+if((m>1)&&(m<=10))
+{
+    console.log("pass AND");
+}
+
+
+
+// OR operator ||
+// T T=T
+// F T=T
+// T F=T
+// F F=F
+let ma=10;
+if((ma>=1)||(ma<=10))
+{
+    console.log("pass OR");
+}
+
+
+
+
+// NOT operator !
+// T=f
+// F=T
+let mark=4;
+if(!(mark==5))
+{
+    console.log("Not Equal")
+}
+
+
+
 
 
 
