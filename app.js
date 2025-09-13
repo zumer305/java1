@@ -172,6 +172,40 @@ else
 
 
 
+// false.........0 , "" ,null,undefined,NaN
+
+
+// switch statement
+let col="red";
+switch(col){
+    case "red":
+        console.log("Stop");
+        break;
+         case "yellow":
+        console.log("Ready Steady");
+        break;
+         case "green":
+        console.log("Go");
+        break;
+        default:
+            console.log("Broken Light");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
